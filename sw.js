@@ -1,7 +1,7 @@
 /* 321猶大書講義 · Service Worker（離線可用）
    版本字串在每次 make_tri_site.py 重新打包時都會變，
    一變就會清掉舊快取、重新抓一份新的，使用者不必手動清除。 */
-const V = '321-jud-6e5c7caaed7b';
+const V = '321-jud-6e5c7caaed7b-gx1021c';
 const SHELL = [
   './', './index.html', './sc.html', './en.html', './manifest.webmanifest', './manifest-en.webmanifest',
   './icon-192.png', './icon-512.png',
