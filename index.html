@@ -2,7 +2,7 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="utf-8">
-<script>(function(){try{var k='r321.jud.lang',p=localStorage.getItem(k);if((p==='en'||p==='sc')&&!/[?&]tc\b/.test(location.search)){location.replace((p==='en'?'en':'sc')+'.html'+location.hash);return;}localStorage.setItem(k,'tc');}catch(e){}})();</script>
+<script>(function(){try{var k='r321.jud.lang',p=localStorage.getItem(k);if((p==='en'||p==='sc')&&!/[?&]tc\b/.test(location.search)){location.replace((p==='en'?'en':'sc')+'.html'+(/[?&]join=/.test(location.search)?location.search:'')+location.hash);return;}localStorage.setItem(k,'tc');}catch(e){}})();</script>
 <script>try{if(!localStorage.getItem('r321.jud.v1')){var _o=localStorage.getItem('r321.v1');if(_o){var _j=JSON.parse(_o);if(_j&&(+_j.last||1)<=1)localStorage.setItem('r321.jud.v1',_o);}}}catch(e){}</script>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=5">
 <meta name="theme-color" content="#1F4D3D">
@@ -7349,5 +7349,6 @@ if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
 })();
 
 </script>
+<script src="coread.js?v=co1" data-pfx="jd321-"></script>
 </body>
 </html>
